@@ -8,6 +8,28 @@ body{
     background-color: #080000;
 }
 
+.active{
+    text-decoration: underline;
+}
+
 nav{
     background-color: #C0A98B;
+    width: 100%;
+    padding: .5rem 1rem;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav a{
+    margin-right: 2rem;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+nav ul img{
+    width: 100px;
+
 }

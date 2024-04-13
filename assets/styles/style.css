@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
   color: white;
+  font-family: "platypi" , sans-serif;
 }
 
 body {
@@ -8,6 +11,22 @@ body {
   background-color: #080000;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+hr{
+  color: grey;
+  width: 100%;
 }
 
 .active {
@@ -15,11 +34,13 @@ body {
 }
 
 nav {
-  background-color: #c0a98b;
-  max-width: 100%;
+  background-color: #a8a6a39a;
+  position: fixed;
+  width: 100%;
   padding: 0.5rem 1rem;
   margin: 0;
   margin-bottom: 1rem;
+  z-index: 1;
 }
 #nav-bar {
   display: flex;
@@ -31,7 +52,7 @@ nav ul {
 }
 
 nav a {
-  margin-right: 2rem;
+  margin-right: 4rem;
   text-decoration: none;
   font-size: 130%;
 }
@@ -44,7 +65,7 @@ nav img {
 #mobile-nav {
   width: 100%;
   text-align: right;
-  margin-right: 1rem;
+  margin-right: 2rem;
   display: none;
 }
 #mobile-nav i {
@@ -65,17 +86,9 @@ nav img {
   margin-top: 1rem;
 }
 
-main {
-  min-height: 100vh;
-  display: flex;
-  flex: 1 0 auto;
-  flex-direction: column;
-  position: relative;
-}
-
 #introduction{
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 #introduction span{
   color: #e2a85d;
@@ -91,12 +104,36 @@ main {
   border-radius: 1rem;
 }
 
+#band-members{
+  text-align: center;
+}
+#members{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  margin-bottom: 5rem;
+}
+.band-member img{
+  width: 100%;
+  width: 150px;
+  height: auto;
+}
+.band-member p{
+  max-width: 100%;
+  width: 200px;
+  padding: 0 5rem;
+}
+
 footer {
-  background-color: #c0a98b;
+  background-color: #b3afac9f;
   width: 100%;
   position: absolute;
-  padding-bottom: 2.5rem;
+  padding-bottom: .5rem;
   bottom: 0;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {

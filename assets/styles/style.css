@@ -18,6 +18,8 @@ nav{
     background-color: #C0A98B;
     max-width: 100%;
     padding: .5rem 1rem;
+    margin: 0;
+    margin-bottom: 1rem;
 }
 #nav-bar{
     display: flex;
@@ -50,6 +52,18 @@ nav img{
     font-size: 200%;
 }
 
+#mobile-sidebar{
+    margin-right: 0;
+}
+#mobile-sidebar ul{
+    display: flex;
+    flex-direction: column;
+    margin-right: -2rem;
+}
+#mobile-sidebar li{
+    margin-top: 1rem;
+}
+
 main{
     min-height: 100vh;
     display: flex;
@@ -69,6 +83,12 @@ footer{
 @media screen and (max-width: 768px) {
     #mobile-nav{
         display: block;
+    }
+    #mobile-sidebar{
+        display: none;
+    }
+    #menuExit{
+        display: none;
     }
 
     #desktop-nav{

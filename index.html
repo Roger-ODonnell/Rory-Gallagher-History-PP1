@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/assets/images/rorys_guitar_icon.ico">
-    <link rel="stylesheet" href="/assets/styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/rorys_guitar_icon.ico"
+    />
+    <link rel="stylesheet" href="/assets/styles/style.css" />
     <title>Homepage</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul id="nav">
-                <li><a href="index.html"><img src="/assets/images/Rorys_guitar_png.png"></a></li>
-                <li><a href="" class="active">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Stratocaster</a></li>
-                <li><a href="">Band</a></li>
-                <li><a href="">Songs</a></li>
-            </ul>
-            <div id="mobile-nav">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </nav>
+      <nav>
+        <div id="nav-bar">
+            <a href="index.html"><img src="/assets/images/Rorys_guitar_png.png"/></a>
+          <ul id="desktop-nav">
+            <li>
+            </li>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Stratocaster</a></li>
+            <li><a href="">Band</a></li>
+            <li><a href="">Songs</a></li>
+          </ul>
+
+          <div id="mobile-nav">
+            <i onclick="toggleMobileMenu()" class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <main>Content
+    <main>
+      Content
 
-        <footer>Footer</footer>
+      <footer>Footer</footer>
     </main>
-
-</body>
+    <script src="/assets/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f5d3de7183.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

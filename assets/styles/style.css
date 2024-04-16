@@ -36,7 +36,7 @@ hr{
 }
 
 nav {
-  background-color: #4dc2e3b2;
+  background-color: #4dc2e3e7;
   position: fixed;
   width: 100%;
   padding: 0.5rem 1rem;
@@ -204,7 +204,8 @@ footer {
     width: 30%;
   }
   #mobile-nav a{
-    font-size: 90%;
+    font-size: 95%;
+    font-weight: bold;
   }
   #menu-bars, #menuExit{
     margin-right: -1em;

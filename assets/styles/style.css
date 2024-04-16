@@ -101,6 +101,8 @@ nav img {
 #introduction{
   text-align: center;
   margin-top: 6rem;
+  animation: move-x;
+  animation-duration: 1.5s;
 }
 #introduction span{
   color: #e2a85d;
@@ -109,6 +111,30 @@ nav img {
   padding: 0 10rem;
   font-size: 140%;
 }
+
+@keyframes move-x {
+  0% {
+    opacity: 1;
+    transform: translateX(100vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes move-y {
+  0% {
+    opacity: 1;
+    transform: translatey(100vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translatey(0);
+  }
+}
+
+
 #introduction img{
   width: 100%;
   width: 200px;
@@ -118,6 +144,8 @@ nav img {
 
 #band-members{
   text-align: center;
+  animation: move-y;
+  animation-duration: 1s;
 }
 #members{
   max-width: 100%;

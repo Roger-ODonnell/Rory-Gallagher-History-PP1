@@ -11,11 +11,13 @@ body {
   background-color: #080000;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
 }
 
 main {
+  margin: 0;
+  padding: 0;
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -34,7 +36,7 @@ hr{
 }
 
 nav {
-  background-color: #a8a6a39a;
+  background-color: #ffffffdc;
   position: fixed;
   width: 100%;
   padding: 0.5rem 1rem;
@@ -55,6 +57,10 @@ nav a {
   margin-right: 4rem;
   text-decoration: none;
   font-size: 130%;
+  color: #080000;
+}
+nav a:hover{
+  color: #e2a85d;
 }
 
 nav img {
@@ -67,6 +73,12 @@ nav img {
   text-align: right;
   margin-right: 2rem;
   display: none;
+}
+#menu-bars{
+  margin-right: 1rem;
+}
+#menuExit{
+  margin-right: 1rem;
 }
 #mobile-nav i {
   color: white;
@@ -127,6 +139,10 @@ nav img {
   padding: 0 5rem;
 }
 
+#introduction p, .band-member p {
+  box-sizing: content-box;
+}
+
 footer {
   background-color: #b3afac9f;
   width: 100%;
@@ -136,18 +152,36 @@ footer {
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 890px) {
   #mobile-nav {
     display: block;
   }
-  #mobile-sidebar {
-    display: none;
-  }
-  #menuExit {
-    display: none;
-  }
-
-  #desktop-nav {
+  #mobile-sidebar, #menuExit,  #desktop-nav{
     display: none;
   }
 }
+
+@media screen and (max-width: 480px) {
+  #introduction p{
+     font-size: 100%;
+     padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #introduction p, .band-member p {
+    padding: 0 1rem;
+  }
+  #mobile-nav{
+    width: 30%;
+  }
+  #mobile-nav a{
+    font-size: 90%;
+  }
+  #menu-bars, #menuExit{
+    margin-right: -1em;
+  }
+}
+
+
+

@@ -26,6 +26,11 @@ main {
   position: relative;
 }
 
+h1{
+  text-align: center;
+  margin-top: 7rem;
+}
+
 hr{
   color: grey;
   width: 100%;
@@ -114,22 +119,18 @@ nav img {
 
 @keyframes move-x {
   0% {
-    opacity: 1;
     transform: translateX(100vw);
   }
   100% {
-    opacity: 1;
     transform: translateX(0);
   }
 }
 
 @keyframes move-y {
   0% {
-    opacity: 1;
     transform: translatey(100vw);
   }
   100% {
-    opacity: 1;
     transform: translatey(0);
   }
 }
@@ -170,6 +171,25 @@ nav img {
 
 #introduction p, .band-member p {
   box-sizing: content-box;
+}
+
+#about-rory{
+  margin-bottom: 5rem;
+  text-align: center;
+  animation: move-x;
+  animation-duration: 1s;
+}
+#about-rory img{
+  width: 100%;
+  width: 500px;
+  height: auto;
+  border-radius: 1rem;
+}
+#about-rory p{
+  padding: 0 10rem;
+} 
+#about-rory section{
+  margin-top: 5rem;
 }
 
 footer {

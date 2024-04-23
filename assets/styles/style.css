@@ -193,6 +193,43 @@ nav img {
   margin-top: 5rem;
 }
 
+#rory-strat-div{
+  margin-top: 5rem;
+  text-align: center;
+}
+#rory-strat{
+  margin-bottom: 5rem;
+  text-align: center;
+  animation: move-x;
+  animation-duration: 1s;
+}
+#rory-strat p{
+  padding: 0 2rem;
+}
+#rory-strat img{
+  border-radius: 2rem;
+  width: 90vw;
+  height: auto;
+}
+
+#rory-band{
+  margin-top: 5rem;
+  text-align: center;
+}
+#rory-band img{
+  width: 90vw;
+  width: 100%;
+  height: auto;
+}
+#rory-band{
+  padding: 0 2rem;
+}
+
+#songs{
+  text-align: center;
+  margin-top: 8rem;
+}
+
 footer {
   background-color: #4dc2e3b2;
   width: 100%;
@@ -225,16 +262,20 @@ footer a:hover{
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
   #introduction p{
      font-size: 100%;
      padding: 0 1rem;
   }
   #about-rory img{
-    width: 80vw;
+    width: 90vw;
   }
   #about-rory p{
     padding: 0 2rem;
+  }
+
+  #rory-band p{
+    padding: 0 0;
   }
 
   footer li{
@@ -256,7 +297,23 @@ footer a:hover{
   #menu-bars, #menuExit{
     margin-right: -1em;
   }
+
+  #about-rory img{
+    width: 90vw;
+  }
 }
+
+@media screen and (max-width: 2000px) {
+  #rory-strat img{
+    width: 40vw;
+    height: auto;
+  }
+
+  #rory-strat p{
+    padding: 0 4rem;
+  }
+}
+
 
 
 

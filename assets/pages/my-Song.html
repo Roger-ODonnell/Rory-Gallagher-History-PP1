@@ -44,16 +44,54 @@
     </header>
 
     <main>
-        <h1>My Song Is:</h1>
+      <h1>My Song Is:</h1>
 
-        <div id="my-song-choice">
-            
+      <div id="my-song-choice">
+        <div id="bad-penny">
+          <h2>Bad Penny</h2>
+          <iframe
+            width="900"
+            height="500"
+            src="https://www.youtube.com/embed/nlEfyMoR49M?si=23AYZ_lWMFuG5lZA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
+
+        <div id="shadowplay">
+          <h2>Shadow Play</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/go9J9REtfdA?si=sCnohXUi8OkrC0Pr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div id="phillby">
+          <h2>Phillby</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/LyY5_8IcRao?si=ZDK8E-ejzNqvrj6m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div id="messin-with-the-kid">
+          <h2>messin with the kid</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ckm-OIo4ync?si=iEF2KkX6WUfq6IEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
     </main>
     <footer>
       <ul>
-          <li><a href="https://www.rorygallagher.com/" target="_blank">Rory Gallagher Offical</a></li>
-          <li><a href="https://github.com/Roger-ODonnell?tab=repositories">Github</a></li>
+        <li>
+          <a href="https://www.rorygallagher.com/" target="_blank"
+            >Rory Gallagher Offical</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/Roger-ODonnell?tab=repositories"
+            >Github</a
+          >
+        </li>
       </ul>
     </footer>
     <script src="/assets/script.js"></script>
@@ -61,5 +99,10 @@
       src="https://kit.fontawesome.com/f5d3de7183.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      window.onload = function () {
+        randomSong();
+      };
+    </script>
   </body>
 </html>

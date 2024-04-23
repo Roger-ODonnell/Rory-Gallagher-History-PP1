@@ -286,6 +286,27 @@ nav img {
   transform: scale(1.2);
 }
 
+#my-song-choice{
+  text-align: center;
+  width: 100vw;
+  max-width: 100%;
+}
+#my-song-choice iframe{
+  text-align: center;
+}
+#bad-penny{
+  display: none;
+}
+#shadowplay{
+  display: none;
+}
+#phillby{
+  display: none;
+}
+#messin-with-the-kid{
+  display: none;
+}
+
 footer {
   background-color: #4dc2e3b2;
   width: 100%;
@@ -344,6 +365,11 @@ footer a:hover{
     padding: 3rem 1rem;
     color: #080000;
     font-size: 130%;
+  }
+
+  #my-song-choice iframe{
+    width: 90%;
+    text-align: center;
   }
 
   footer li{

@@ -120,7 +120,7 @@ nav img {
 
 @keyframes move-x {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(-100vw);
   }
   100% {
     transform: translateX(0);
@@ -207,18 +207,18 @@ nav img {
   padding: 0 2rem;
 }
 #rory-strat img{
-  border-radius: 2rem;
-  width: 90vw;
+  width: 100%;
   height: auto;
 }
 
 #rory-band{
+  animation: move-x;
+  animation-duration: 1s;
   margin-top: 5rem;
   text-align: center;
 }
 #rory-band img{
-  width: 90vw;
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 #rory-band{
@@ -232,6 +232,8 @@ nav img {
   text-align: center;
   margin-top: 8rem;
   background-color: rgba(92, 72, 72, 0.329);
+  animation: move-x;
+  animation-duration: 2s;
 }
 #songs ul{
   width: 100vw;
@@ -240,6 +242,10 @@ nav img {
   margin-bottom: 5rem
 }
 
+#form{
+  animation: move-y;
+  animation-duration: 2s;
+}
 #songs-list{
   max-width: 100%;
   width: 100px;
@@ -309,6 +315,10 @@ footer a:hover{
   }
   #mobile-sidebar, #menuExit,  #desktop-nav{
     display: none;
+  }
+
+  #rory-band img{
+    width: 100%;
   }
 }
 

@@ -230,6 +230,16 @@ footer a:hover{
      font-size: 100%;
      padding: 0 1rem;
   }
+  #about-rory img{
+    width: 80vw;
+  }
+  #about-rory p{
+    padding: 0 2rem;
+  }
+
+  footer li{
+      font-size: small;
+  }
 }
 
 @media screen and (max-width: 320px) {

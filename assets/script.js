@@ -9,11 +9,16 @@ function OpenMenu() {
 }
 
 function closeMenu() {
-    var navBarList = document.getElementById("mobile-sidebar");
-    var menuBar = document.getElementById("menu-bars");
-    var exitMenu = document.getElementById("menuExit");
-  
-    menuBar.style.display = "block";
-    navBarList.style.display = "none";
-    exitMenu.style.display = "none";
-  }
+  var navBarList = document.getElementById("mobile-sidebar");
+  var menuBar = document.getElementById("menu-bars");
+  var exitMenu = document.getElementById("menuExit");
+
+  menuBar.style.display = "block";
+  navBarList.style.display = "none";
+  exitMenu.style.display = "none";
+}
+
+document.getElementById('song-form').addEventListener('submit', function(event) {
+  event.preventDefault(); 
+  window.location.href = 'my-Song.html'; 
+});

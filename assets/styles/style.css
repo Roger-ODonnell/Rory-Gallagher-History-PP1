@@ -226,8 +226,58 @@ nav img {
 }
 
 #songs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   margin-top: 8rem;
+  background-color: rgba(92, 72, 72, 0.329);
+}
+#songs ul{
+  width: 100vw;
+}
+#song h2{
+  margin-bottom: 5rem
+}
+
+#songs-list{
+  max-width: 100%;
+  width: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 0;
+  margin-bottom: 5rem;
+  list-style-type: none;
+}
+#songs-list li{
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+#songs-list li:hover{
+  transform: scale(1.2);
+}
+
+#form{
+  background-color: #513455;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #080000;
+  font-size: 150%;
+}
+#Favourite-Artist{
+ font-size: 110%;
+ color: #080000;
+}
+#submit{
+  background-color: #fef7ff;
+  color: #080000;
+  padding: 1rem 1rem;
+  font-size: 110%;
+}
+#submit:hover{
+  transform: scale(1.2);
 }
 
 footer {
@@ -277,6 +327,14 @@ footer a:hover{
   #rory-band p{
     padding: 0 0;
   }
+  
+  #form{
+    background-color: #513455;
+    text-align: center;
+    padding: 3rem 1rem;
+    color: #080000;
+    font-size: 130%;
+  }
 
   footer li{
       font-size: small;
@@ -301,6 +359,16 @@ footer a:hover{
   #about-rory img{
     width: 90vw;
   }
+
+  #songs-list li img{
+      padding: 0rem .5rem;
+  }
+
+  #Favourite-Artist{
+    font-size: 100%;
+    color: #080000;
+   }
+   
 }
 
 @media screen and (max-width: 2000px) {
@@ -311,6 +379,11 @@ footer a:hover{
 
   #rory-strat p{
     padding: 0 4rem;
+  }
+
+  #songs img{
+    width: 20vw;
+    height: auto;
   }
 }
 

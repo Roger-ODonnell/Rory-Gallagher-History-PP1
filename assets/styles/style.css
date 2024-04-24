@@ -71,6 +71,7 @@ nav a:hover {
 
 nav img {
   width: 100px;
+  height: 40px;
   margin-top: 0.5rem;
 }
 nav img:hover {
@@ -86,7 +87,7 @@ nav img:hover {
 #menu-bars {
   margin-right: 1rem;
 }
-#menuExit {
+#menu-exit {
   margin-right: 1rem;
 }
 #mobile-nav i {
@@ -111,7 +112,7 @@ nav img:hover {
   text-align: center;
   margin-top: 6rem;
   animation: move-x;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 #introduction span {
   color: #e2a85d;
@@ -119,6 +120,11 @@ nav img:hover {
 #introduction p {
   padding: 0 10rem;
   font-size: 140%;
+}
+#introduction img {
+  width: 200px;
+  height: 150px;
+  border-radius: 1rem;
 }
 
 @keyframes move-x {
@@ -139,13 +145,6 @@ nav img:hover {
   }
 }
 
-#introduction img {
-  width: 100%;
-  width: 200px;
-  height: auto;
-  border-radius: 1rem;
-}
-
 #band-members {
   text-align: center;
   animation: move-y;
@@ -161,8 +160,7 @@ nav img:hover {
   margin-bottom: 5rem;
 }
 .band-member img {
-  width: 100%;
-  width: 150px;
+  width: 200px;
   height: auto;
   border-radius: 5rem;
 }
@@ -338,7 +336,7 @@ footer a:hover {
     display: block;
   }
   #mobile-sidebar,
-  #menuExit,
+  #menu-exit,
   #desktop-nav {
     display: none;
   }
@@ -383,6 +381,13 @@ footer a:hover {
 }
 
 @media screen and (max-width: 320px) {
+  
+  #introduction img {
+    width: 200px;
+    height: 150px;
+    border-radius: 1rem;
+  }
+  
   #introduction p,
   .band-member p {
     padding: 0 1rem;
@@ -395,7 +400,7 @@ footer a:hover {
     font-weight: bold;
   }
   #menu-bars,
-  #menuExit {
+  #menu-exit {
     margin-right: -1em;
   }
 
@@ -414,6 +419,13 @@ footer a:hover {
 }
 
 @media screen and (max-width: 2000px) {
+  #introduction img {
+    width: 200px;
+    height: 150px;
+    border-radius: 1rem;
+  }
+  
+  
   #rory-strat img {
     width: 40vw;
     height: auto;

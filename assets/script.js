@@ -1,7 +1,7 @@
 function OpenMenu() {
   var navBarList = document.getElementById("mobile-sidebar");
   var menuBar = document.getElementById("menu-bars");
-  var exitMenu = document.getElementById("menuExit");
+  var exitMenu = document.getElementById("menu-exit");
 
   menuBar.style.display = "none";
   navBarList.style.display = "block";
@@ -11,7 +11,7 @@ function OpenMenu() {
 function closeMenu() {
   var navBarList = document.getElementById("mobile-sidebar");
   var menuBar = document.getElementById("menu-bars");
-  var exitMenu = document.getElementById("menuExit");
+  var exitMenu = document.getElementById("menu-exit");
 
   menuBar.style.display = "block";
   navBarList.style.display = "none";

@@ -52,4 +52,19 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
   <li>I will use informative and interesting information from various sites to let the reader leave with learning something about Rory.</li>
 </ul>
 
+<h3>How will I achieve my goals?</h3>
+<ul>
+  <li>I will use complimenting colors to achieve easy on the eye's navigation</li>
+  <li>I will provide interesting facts about rorys life</li>
+  <li>I Will make all pages responsive to allow viewing on any device</li>
+  <li>i will keep reading to a minimum whilst providing enough information on Rory Gallagher</li>
+</ul>
+
 <a href="#top">Back to top</a>
+
+<h2>Wireframes</h2>
+<h3>My wireframe designs where created using figma.</h3>
+<h3>Homepage</h3>
+![Screenshot 2024-04-24 200728](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/1a3bfd15-3fef-4851-9729-82cfdc3fd51e)
+
+

@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap");
 
 * {
   color: white;
-  font-family: "platypi" , sans-serif;
+  font-family: "platypi", sans-serif;
 }
 
 body {
@@ -27,12 +27,12 @@ main {
   position: relative;
 }
 
-h1{
+h1 {
   text-align: center;
   margin-top: 7rem;
 }
 
-hr{
+hr {
   color: grey;
   width: 100%;
 }
@@ -65,13 +65,16 @@ nav a {
   font-size: 130%;
   color: #ffffff;
 }
-nav a:hover{
+nav a:hover {
   color: #e2a85d;
 }
 
 nav img {
   width: 100px;
   margin-top: 0.5rem;
+}
+nav img:hover {
+  transform: scale(1.2);
 }
 
 #mobile-nav {
@@ -80,10 +83,10 @@ nav img {
   margin-right: 2rem;
   display: none;
 }
-#menu-bars{
+#menu-bars {
   margin-right: 1rem;
 }
-#menuExit{
+#menuExit {
   margin-right: 1rem;
 }
 #mobile-nav i {
@@ -104,16 +107,16 @@ nav img {
   margin-top: 1rem;
 }
 
-#introduction{
+#introduction {
   text-align: center;
   margin-top: 6rem;
   animation: move-x;
   animation-duration: 1.5s;
 }
-#introduction span{
+#introduction span {
   color: #e2a85d;
 }
-#introduction p{
+#introduction p {
   padding: 0 10rem;
   font-size: 140%;
 }
@@ -136,20 +139,19 @@ nav img {
   }
 }
 
-
-#introduction img{
+#introduction img {
   width: 100%;
   width: 200px;
   height: auto;
   border-radius: 1rem;
 }
 
-#band-members{
+#band-members {
   text-align: center;
   animation: move-y;
   animation-duration: 1s;
 }
-#members{
+#members {
   max-width: 100%;
   display: flex;
   justify-content: space-around;
@@ -158,74 +160,75 @@ nav img {
   padding: 0 1rem;
   margin-bottom: 5rem;
 }
-.band-member img{
+.band-member img {
   width: 100%;
   width: 150px;
   height: auto;
   border-radius: 5rem;
 }
-.band-member p{
+.band-member p {
   max-width: 100%;
   width: 200px;
   padding: 0 5rem;
 }
 
-#introduction p, .band-member p {
+#introduction p,
+.band-member p {
   box-sizing: content-box;
 }
 
-#about-rory{
+#about-rory {
   margin-bottom: 5rem;
   text-align: center;
   animation: move-x;
   animation-duration: 1s;
 }
-#about-rory img{
+#about-rory img {
   width: 100%;
   width: 500px;
   height: auto;
   border-radius: 1rem;
 }
-#about-rory p{
+#about-rory p {
   padding: 0 10rem;
-} 
-#about-rory section{
+}
+#about-rory section {
   margin-top: 5rem;
 }
 
-#rory-strat-div{
+#rory-strat-div {
   margin-top: 5rem;
   text-align: center;
 }
-#rory-strat{
+#rory-strat {
   margin-bottom: 5rem;
   text-align: center;
   animation: move-x;
   animation-duration: 1s;
 }
-#rory-strat p{
+#rory-strat p {
   padding: 0 2rem;
 }
-#rory-strat img{
+#rory-strat img {
   width: 100%;
   height: auto;
 }
 
-#rory-band{
+#rory-band {
   animation: move-x;
   animation-duration: 1s;
   margin-top: 5rem;
   text-align: center;
 }
-#rory-band img{
+#rory-band img {
   width: 50%;
   height: auto;
 }
-#rory-band{
+#rory-band {
   padding: 0 2rem;
 }
 
-#songs{
+#songs {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -235,18 +238,18 @@ nav img {
   animation: move-x;
   animation-duration: 2s;
 }
-#songs ul{
+#songs ul {
   width: 100vw;
 }
-#song h2{
-  margin-bottom: 5rem
+#song h2 {
+  margin-bottom: 5rem;
 }
 
-#form{
+#form {
   animation: move-y;
   animation-duration: 2s;
 }
-#songs-list{
+#songs-list {
   max-width: 100%;
   width: 100px;
   display: flex;
@@ -257,76 +260,76 @@ nav img {
   margin-bottom: 5rem;
   list-style-type: none;
 }
-#songs-list li{
+#songs-list li {
   margin-right: 1rem;
   margin-top: 1rem;
 }
-#songs-list li:hover{
+#songs-list li:hover {
   transform: scale(1.2);
 }
 
-#form{
+#form {
   background-color: #513455;
   text-align: center;
   padding: 3rem 1rem;
   color: #080000;
   font-size: 150%;
 }
-#Favourite-Artist{
- font-size: 110%;
- color: #080000;
+#Favourite-Artist {
+  font-size: 110%;
+  color: #080000;
 }
-#submit{
+#submit {
   background-color: #fef7ff;
   color: #080000;
   padding: 1rem 1rem;
   font-size: 110%;
 }
-#submit:hover{
+#submit:hover {
   transform: scale(1.2);
 }
 
-#my-song-choice{
+#my-song-choice {
   text-align: center;
   width: 100vw;
   max-width: 100%;
 }
-#my-song-choice iframe{
+#my-song-choice iframe {
   text-align: center;
 }
-#bad-penny{
+#bad-penny {
   display: none;
 }
-#shadowplay{
+#shadowplay {
   display: none;
 }
-#phillby{
+#phillby {
   display: none;
 }
-#messin-with-the-kid{
+#messin-with-the-kid {
   display: none;
 }
 
 footer {
   background-color: #4dc2e3b2;
   width: 100%;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   bottom: 0;
   text-align: center;
 }
-footer ul{
+footer ul {
   display: flex;
   flex-wrap: wrap;
   line-height: 0;
 }
-footer li{
+footer li {
   list-style-type: none;
   margin-right: 1rem;
 }
-footer a{
+footer a {
   text-decoration: none;
 }
-footer a:hover{
+footer a:hover {
   color: orange;
 }
 
@@ -334,32 +337,34 @@ footer a:hover{
   #mobile-nav {
     display: block;
   }
-  #mobile-sidebar, #menuExit,  #desktop-nav{
+  #mobile-sidebar,
+  #menuExit,
+  #desktop-nav {
     display: none;
   }
 
-  #rory-band img{
+  #rory-band img {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 550px) {
-  #introduction p{
-     font-size: 100%;
-     padding: 0 1rem;
+  #introduction p {
+    font-size: 100%;
+    padding: 0 1rem;
   }
-  #about-rory img{
+  #about-rory img {
     width: 90vw;
   }
-  #about-rory p{
+  #about-rory p {
     padding: 0 2rem;
   }
 
-  #rory-band p{
+  #rory-band p {
     padding: 0 0;
   }
-  
-  #form{
+
+  #form {
     background-color: #513455;
     text-align: center;
     padding: 3rem 1rem;
@@ -367,62 +372,59 @@ footer a:hover{
     font-size: 130%;
   }
 
-  #my-song-choice iframe{
+  #my-song-choice iframe {
     width: 90%;
     text-align: center;
   }
 
-  footer li{
-      font-size: small;
+  footer li {
+    font-size: small;
   }
 }
 
 @media screen and (max-width: 320px) {
-  #introduction p, .band-member p {
+  #introduction p,
+  .band-member p {
     padding: 0 1rem;
   }
-  #mobile-nav{
+  #mobile-nav {
     width: 30%;
   }
-  #mobile-nav a{
+  #mobile-nav a {
     font-size: 95%;
     font-weight: bold;
   }
-  #menu-bars, #menuExit{
+  #menu-bars,
+  #menuExit {
     margin-right: -1em;
   }
 
-  #about-rory img{
+  #about-rory img {
     width: 90vw;
   }
 
-  #songs-list li img{
-      padding: 0rem .5rem;
+  #songs-list li img {
+    padding: 0rem 0.5rem;
   }
 
-  #Favourite-Artist{
+  #Favourite-Artist {
     font-size: 100%;
     color: #080000;
-   }
-   
+  }
 }
 
 @media screen and (max-width: 2000px) {
-  #rory-strat img{
+  #rory-strat img {
     width: 40vw;
     height: auto;
   }
 
-  #rory-strat p{
+  #rory-strat p {
     padding: 0 4rem;
   }
 
-  #songs img{
+  #songs img {
     width: 20vw;
     height: auto;
   }
 }
-
-
-
-

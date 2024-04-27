@@ -95,19 +95,45 @@ nav img:hover {
   font-size: 200%;
 }
 
-#mobile-sidebar {
-  margin-right: 0;
+#mobile-nav {
   width: 100%;
+  text-align: right;
+  margin-right: 2rem;
+  overflow: hidden; 
+}
+
+#mobile-sidebar {
+  position: fixed; 
+  margin-top: 1.5em;
+  top: 10;
+  right: 0;
+  width: 100%; 
+  background-color: #4dc2e3e7; 
+  padding: 1rem; 
+  transition: transform 0.3s ease-in-out; 
 }
 
 #mobile-sidebar ul {
   display: flex;
   flex-direction: column;
-  margin-right: 0;
+  margin: 0; 
+  padding: 0; 
 }
+
 #mobile-sidebar li {
   margin-top: 1rem;
 }
+#menu-bars{
+  margin-right: 2rem;
+}
+#menu-exit {
+  margin-right: 2rem;
+}
+
+#menu-exit:hover {
+  cursor: pointer; 
+}
+
 
 #introduction {
   text-align: center;
@@ -347,6 +373,18 @@ footer a:hover {
   }
 }
 
+@media screen and (max-width: 768px) {
+  #mobile-nav {
+    width: 100%;
+    text-align: right;
+    margin-right: 0rem;
+    overflow: hidden; 
+  }
+  #mobile-sidebar ul {
+    margin: 0 -3rem;
+  }
+}
+
 @media screen and (max-width: 550px) {
   #introduction p {
     font-size: 100%;
@@ -357,6 +395,16 @@ footer a:hover {
   }
   #about-rory p {
     padding: 0 2rem;
+  }
+
+  #mobile-nav {
+    width: 100%;
+    text-align: right;
+    margin-right: 0rem;
+    overflow: hidden; 
+  }
+  #mobile-sidebar ul {
+    margin: 0 -3rem;
   }
 
   #rory-band p {
@@ -400,14 +448,15 @@ footer a:hover {
     font-size: 95%;
     font-weight: bold;
   }
-  #menu-bars,
-  #menu-exit {
-    margin-right: -1em;
+
+  #mobile-nav {
+    width: 100%;
+    text-align: right;
+    margin-right: 0rem;
+    overflow: hidden; 
   }
-  #mobile-sidebar ul a{
-    margin: 0;
-    padding: 0;
-    width: 20%;
+  #mobile-sidebar ul {
+    margin: 0 -3rem;
   }
 
   #about-rory img {

@@ -64,8 +64,15 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 
 <h2>Wireframes</h2>
 <h3>My wireframe designs where created using figma.</h3>
-<h3>Homepage</h3>
+
 <h4>Mobile</h4>
 
-![Screenshot 2024-04-24 200728](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/619de900-88d7-41f6-aed3-19e0a110b734)
+
+![Homepage](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/e9a87287-92d7-4fea-ac5b-6a50d1efd60d)
+![About Page](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/05778728-b99f-4536-bbd9-3497e1851f78)
+![Band](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/210f1fcd-f220-411f-8841-c46c6cf654c4)
+![Stratocaster](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/68a3bc16-8f7a-4caa-980c-10e11ad95c2a)
+![Discograpy](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/d0726429-407e-4da1-9f4c-b9465d2af70b)
+
+
 

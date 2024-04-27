@@ -132,7 +132,7 @@
         <div id="form">
           <h2>Find the Rory Song for you!</h2>
           <form
-            method="post"
+            method="get"
             action="window.location.href=./assets/pages/my-song.html"
             id="song-form">
             <label>Select from the below list: </label>
@@ -186,7 +186,7 @@
     </footer>
     <script>
       document
-        .getElementById("myForm")
+        .getElementById("song-form")
         .addEventListener("submit", function (event) {
           event.preventDefault(); // Prevent the default form submission
 

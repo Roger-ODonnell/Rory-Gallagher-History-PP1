@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="keywords"
+      content="rory gallagher, guitar, music, stratocaster, history, instruments, band, gerry mcavoy, rod death"
+    >
     <link
       rel="icon"
       type="image/x-icon"
       href="/assets/images/rorys_guitar_icon.ico"
-    />
-    <link rel="stylesheet" href="../styles/style.css" />
+    >
+    <link rel="stylesheet" href="../styles/style.css">
     <title>Songs</title>
   </head>
   <body>
@@ -16,8 +20,10 @@
       <nav>
         <div id="nav-bar">
           <a href="../../index.html"
-            ><img src="/assets/images/rorys-guitar.webp"
-          /></a>
+            ><img
+              src="/assets/images/rorys-guitar.webp"
+              alt="image of rory gallaghers guitar"
+          ></a>
           <ul id="desktop-nav">
             <li><a href="/index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -28,7 +34,7 @@
 
           <div id="mobile-nav">
             <i onclick="OpenMenu()" id="menu-bars" class="fa-solid fa-bars"></i>
-            <i onclick="closeMenu()" class="fa-solid fa-x" id="menuExit"></i>
+            <i onclick="closeMenu()" class="fa-solid fa-x" id="menu-exit"></i>
             <div id="mobile-sidebar">
               <ul>
                 <li><a href="../../index.html">Home</a></li>
@@ -52,57 +58,73 @@
               <a
                 href="https://goldendiscs.ie/products/tattoo-rory-gallagher-vinyl"
                 target="_blank"
-                ><img src="/assets/images/tattod-lady.webp"
-              /></a>
+                ><img
+                  src="/assets/images/tattod-lady.webp"
+                  alt="album picture of tatto"
+              ></a>
             </li>
             <li>
               <a
                 href="https://goldendiscs.ie/products/top-priority-rory-gallagher-vinyl"
                 target="_blank"
-                ><img src="/assets/images/top-prior.webp"
-              /></a>
+                ><img
+                  src="/assets/images/top-prior.webp"
+                  alt="album picture of top priority"
+              ></a>
             </li>
             <li>
               <a
                 href="https://goldendiscs.ie/products/live-in-europe-rory-gallagher-cd"
                 target="_blank"
-                ><img src="/assets/images/live-in-europe.webp"
-              /></a>
+                ><img
+                  src="/assets/images/live-in-europe.webp"
+                  alt="album picture of live in europe"
+              ></a>
             </li>
             <li>
               <a
                 href="https://goldendiscs.ie/products/deuce-rory-gallagher-cd"
                 target="_blank"
-                ><img src="/assets/images/deuce.webp"
-              /></a>
+                ><img
+                  src="/assets/images/deuce.webp"
+                  alt="album picture of deuce"
+              ></a>
             </li>
             <li>
               <a
                 href="https://goldendiscs.ie/products/photo-finish-rory-gallagher-cd"
                 target="_blank"
-                ><img src="/assets/images/photo-finish.webp"
-              /></a>
+                ><img
+                  src="/assets/images/photo-finish.webp"
+                  alt="album picture of photo finish"
+              ></a>
             </li>
             <li>
               <a
                 href="https://goldendiscs.ie/products/rory-gallagher-rory-gallagher-cd"
                 target="_blank"
-                ><img src="/assets/images/rory-hits.webp"
-              /></a>
+                ><img
+                  src="/assets/images/rory-hits.webp"
+                  alt="album picture of rorys hits"
+              ></a>
             </li>
             <li>
               <a
                 href="https://goldendiscs.ie/products/blues-rory-gallagher-cd"
                 target="_blank"
-                ><img src="/assets/images/rory-blues.webp"
-              /></a>
+                ><img
+                  src="/assets/images/rory-blues.webp"
+                  alt="album picture of blues by rory gallagher"
+              ></a>
             </li>
             <li>
               <a
                 href="https://goldendiscs.ie/products/calling-card-rory-gallagher-cd"
                 target="_blank"
-                ><img src="/assets/images/calling-card.webp"
-              /></a>
+                ><img
+                  src="/assets/images/calling-card.webp"
+                  alt="album picture of calling card"
+              ></a>
             </li>
           </ul>
         </section>
@@ -111,38 +133,37 @@
           <h2>Find the Rory Song for you!</h2>
           <form
             method="post"
-            action="window.location.href = ./assets/pages/my-song.html"
-            id="song-form"
-          >
+            action="window.location.href=./assets/pages/my-song.html"
+            id="song-form">
             <label>Select from the below list: </label>
-            <br />
-            <input required type="radio" value="Rock" id="rock" name="genre" />
+            <br>
+            <input required type="radio" value="Rock" id="rock" name="genre">
             <label for="rock">Rock </label>
-            <br />
+            <br>
             <input
               required
               type="radio"
               value="blues"
               id="blues"
               name="genre"
-            />
+            >
             <label for="blues">Blues </label>
-            <br />
+            <br>
             <input
               required
               type="radio"
               value="Traditonal"
               id="Traditonal"
               name="genre"
-            />
+            >
             <label for="Traditonal">Traditonal</label>
-            <br />
-            <br />
+            <br>
+            <br>
             <label for="Favourite-Artist">Favourite-Artist</label>
-            <input required type="text" id="Favourite-Artist" />
-            <br />
-            <br />
-            <input onclick="" type="submit" value="Find My Song" id="submit" />
+            <input required type="text" id="Favourite-Artist">
+            <br>
+            <br>
+            <input onclick="" type="submit" value="Find My Song" id="submit">
           </form>
         </div>
       </div>
@@ -165,10 +186,12 @@
     </footer>
     <script>
       document
-        .getElementById("song-form")
+        .getElementById("myForm")
         .addEventListener("submit", function (event) {
-          event.preventDefault();
-          window.location.href = "my-Song.html";
+          event.preventDefault(); // Prevent the default form submission
+
+          // Redirect the user to ./assets/pages/my-song.html
+          window.location.href = "./assets/pages/my-song.html";
         });
     </script>
     <script src="/assets/script.js"></script>

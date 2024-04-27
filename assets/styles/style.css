@@ -97,12 +97,13 @@ nav img:hover {
 
 #mobile-sidebar {
   margin-right: 0;
+  width: 100%;
 }
 
 #mobile-sidebar ul {
   display: flex;
   flex-direction: column;
-  margin-right: -2rem;
+  margin-right: 0;
 }
 #mobile-sidebar li {
   margin-top: 1rem;
@@ -402,6 +403,11 @@ footer a:hover {
   #menu-bars,
   #menu-exit {
     margin-right: -1em;
+  }
+  #mobile-sidebar ul a{
+    margin: 0;
+    padding: 0;
+    width: 20%;
   }
 
   #about-rory img {

@@ -65,6 +65,5 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 <h2>Wireframes</h2>
 <h3>My wireframe designs where created using figma.</h3>
 <h3>Homepage</h3>
-![Screenshot 2024-04-24 200728](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/1a3bfd15-3fef-4851-9729-82cfdc3fd51e)
 
 

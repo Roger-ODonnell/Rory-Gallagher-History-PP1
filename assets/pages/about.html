@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--Start of head-->
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="rory gallagher, guitar, music, stratocaster, history, instruments, band, gerry mcavoy, rod death">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Header meta tag for keywords-->
+    <meta
+      name="keywords"
+      content="rory gallagher, guitar, music, stratocaster, history, instruments, band, gerry mcavoy, rod death"
+    />
+    <!--Link to set webpage tab icon to rorys guitar-->
     <link
       rel="icon"
       type="image/x-icon"
       href="../../assets/images/rorys_guitar_icon.ico"
-    >
-    <link rel="stylesheet" href="../styles/style.css">
+    />
+    <!--Link to stylesheet-->
+    <link rel="stylesheet" href="../styles/style.css" />
+    <!--Page title-->
     <title>About</title>
   </head>
+  <!--End of head-->
+  <!--Start of Body-->
   <body>
+    <!--Start of header-->
     <header>
+      <!--Start of navigation-->
       <nav>
+        <!--DIV for both desktop and mobile nav bar-->
         <div id="nav-bar">
           <a href="../../index.html"
-            ><img src="../../assets/images/rorys-guitar.webp" alt="image of rory gallaghers guitar"
-          ></a>
+            ><img
+              src="../../assets/images/rorys-guitar.webp"
+              alt="image of rory gallaghers guitar"
+          /></a>
+          <!--Start of Desktop Nav Bar-->
           <ul id="desktop-nav">
             <li><a href="../../index.html">Home</a></li>
             <li><a href="" class="active">About</a></li>
@@ -26,11 +42,16 @@
             <li><a href="band.html">Band</a></li>
             <li><a href="songs.html">Songs</a></li>
           </ul>
-
+          <!--End of Desktop Nav Bar-->
+          <!--Start of mobile nav-->
           <div id="mobile-nav">
+            <!--Menu Bar icon for toggling mobile navbar drop down on-->
             <i onclick="OpenMenu()" id="menu-bars" class="fa-solid fa-bars"></i>
+            <!--Menu Bar icon for toggling mobile navbar drop up-->
             <i onclick="closeMenu()" class="fa-solid fa-x" id="menu-exit"></i>
+            <!--Div for dropdown mobile nav ul-->
             <div id="mobile-sidebar">
+              <!--unordered list for each page link on the nav bar-->
               <ul>
                 <li><a href="../../index.html">Home</a></li>
                 <li><a href="" class="active">About</a></li>
@@ -39,19 +60,24 @@
                 <li><a href="songs.html">Songs</a></li>
               </ul>
             </div>
+            <!--End of mobile div-->
           </div>
         </div>
+        <!--End of navbar div-->
       </nav>
+      <!--End of navigation-->
     </header>
-
+    <!--End of header-->
+    <!--Start of main section-->
     <main>
+      <!--About rory section-->
       <h1>About Rory Gallagher</h1>
       <div id="about-rory">
         <section>
           <img
             src="../../assets/images/rory-gallagher-about.webp"
             alt="picture of rory gallagher and his 1961 stratocaster"
-          >
+          />
           <h3>Early Days:</h3>
           <p>
             Rory was born to Daniel and Monica Gallagher in Ballyshannon, County
@@ -66,10 +92,13 @@
             instrument and was most associated with him during his career.
           </p>
         </section>
-
+        <!--About taste section-->
         <section>
           <h3>Taste</h3>
-          <img src="../../assets/images/the-taste-1970.webp" alt="picture of the taste band, rory gallaghers band">
+          <img
+            src="../../assets/images/the-taste-1970.webp"
+            alt="picture of the taste band, rory gallaghers band"
+          />
           <p>
             Taste (originally "The Taste") was formed in Cork, Ireland, in
             August 1966 as a trio consisting of Rory Gallagher on guitars and
@@ -94,12 +123,13 @@
             camera angle.
           </p>
         </section>
-
+        <!--About rorys solo career section-->
         <section>
           <h3>Rory Gallagher Solo Career</h3>
           <img
-            src="../../assets/images/brendan-rory-gerry-mixing-desk.webp" alt="picture of rory gallagher and his band at the mixing desk"
-          >
+            src="../../assets/images/brendan-rory-gerry-mixing-desk.webp"
+            alt="picture of rory gallagher and his band at the mixing desk"
+          />
           <p>
             After the break-up of Taste, Gallagher toured under his own name,
             hiring former Deep Joy bass player Gerry McAvoy to play on
@@ -114,10 +144,13 @@
             Albums Chart, Gallagher did not attain major star status.
           </p>
         </section>
-
+        <!--Rorys final days-->
         <section>
           <h3>Final Days</h3>
-          <img src="../../assets/images/rory-1995.webp" alt="picture of rory gallagher in 1995">
+          <img
+            src="../../assets/images/rory-1995.webp"
+            alt="picture of rory gallagher in 1995"
+          />
           <p>
             Rory literally played until he dropped, after collapsing onstage in
             Rotterdam in January 1995, he was hospitalised in London with liver
@@ -126,8 +159,12 @@
           </p>
         </section>
       </div>
+      <!--End of about rory div-->
     </main>
+    <!--End of main section-->
+    <!--Start of footer-->
     <footer>
+       <!--Unordered list of two elements to new tabs, rorys offical page and my github-->
       <ul>
         <li>
           <a href="https://www.rorygallagher.com/" target="_blank"
@@ -143,10 +180,14 @@
         </li>
       </ul>
     </footer>
+     <!--End of footer-->
+    <!--Link to script.js which controls the mobile nav bar open and closing-->
     <script src="../../assets/script.js"></script>
+    <!--Script link to font awesomes page to enable use of favicons-->
     <script
       src="https://kit.fontawesome.com/f5d3de7183.js"
       crossorigin="anonymous"
     ></script>
   </body>
+  <!--End of body-->
 </html>

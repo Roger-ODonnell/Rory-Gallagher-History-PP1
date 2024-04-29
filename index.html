@@ -1,22 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--Start of head-->
   <head>
     <meta charset="UTF-8">
+    <!--Header meta tag for keywords-->
     <meta name="keywords" content="rory gallagher, guitar, music, stratocaster, history, instruments, band, gerry mcavoy, rod death">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Link to set webpage tab icon to rorys guitar-->
     <link
       rel="icon"
       type="image/x-icon"
       href="./assets/images/rorys_guitar_icon.ico">
+      <!--Link to stylesheet-->
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <!--Page title-->
     <title>Homepage</title>
   </head>
+  <!--End of head-->
+  <!--Start of Body-->
   <body>
+    <!--Start of header-->
     <header>
+      <!--Start of navigation-->
       <nav>
+        <!--DIV for both desktop and mobile nav bar-->
         <div id="nav-bar">
+          <!--Start of Desktop Nav Bar-->
           <a href="index.html"
             ><img src="./assets/images/rorys-guitar.webp" alt="rorys guitar - home button"></a>
+            <!--unordered list for each page link on the nav bar-->
           <ul id="desktop-nav">
             <li><a href="#" class="active">Home</a></li>
             <li><a href="./assets/pages/about.html">About</a></li>
@@ -24,11 +36,14 @@
             <li><a href="./assets/pages/band.html">Band</a></li>
             <li><a href="./assets//pages/songs.html">Songs</a></li>
           </ul>
-
+          <!--End of Desktop Nav Bar-->
           <div id="mobile-nav">
+            <!--Menu Bar icon for toggling mobile navbar drop down on-->
             <i onclick="OpenMenu()" id="menu-bars" class="fa-solid fa-bars"></i>
-            <i onclick="closeMenu()" class="fa-solid fa-x" id="menu-exit"></i><!--camel case fix-->
+            <!--Menu Bar icon for toggling mobile navbar drop up-->
+            <i onclick="closeMenu()" class="fa-solid fa-x" id="menu-exit"></i>
             <div id="mobile-sidebar">
+              <!--unordered list for each page link on the nav bar-->
               <ul>
                 <li><a href="" class="active">Home</a></li>
                 <li><a href="./assets/pages/about.html">About</a></li>
@@ -38,11 +53,16 @@
               </ul>
             </div>
           </div>
+          <!--End of mobile div-->
         </div>
+        <!--End of navbar div-->
       </nav>
+      <!--End of navigation-->
     </header>
-
+    <!--End of header-->
+    <!--Start of main section-->
     <main>
+      <!--Introduction section for rory-->
       <section id="introduction">
         <img src="./assets/images/rory.webp" alt="picture of rory gallagher and his stratocaster">
         <h2>Rory Gallagher</h2>
@@ -52,11 +72,12 @@
           is often referred to as "the greatest guitarist you've never heard of"
         </p>
       </section>
-
+      <!--End of rory introduction-->
       <hr>
-
+      <!--Band member section-->
       <section id="band-members">
         <h1>Band Members</h1>
+         <!--Band member divs for each member-->
         <div id="members">
           <div class="band-member">
             <img src="./assets/images/gerry-mcavoy.webp" alt="picture of gerry mcavoy">
@@ -67,7 +88,7 @@
               1991.
             </p>
           </div>
-
+         
           <div class="band-member">
             <img src="./assets/images/rod-de-ath.webp" alt="picture of rod de'ath">
             <h2>Rod De'Ath</h2>
@@ -91,20 +112,27 @@
               Mark Feltham is an English musician, best known for playing harmonica with Rory Gallagher.
             </p>
           </div>
+           <!--End of band member divs for each member-->
         </div>
       </section>
-
+      <!--End of band member section-->
     </main>
+    <!--Start of footer-->
     <footer>
+      <!--Unordered list of two elements to new tabs, rorys offical page and my github-->
       <ul>
           <li><a href="https://www.rorygallagher.com/" target="_blank">Rory Gallagher Offical Site</a></li>
           <li><a href="https://github.com/Roger-ODonnell?tab=repositories" target="_blank">Github</a></li>
       </ul>
     </footer>
+    <!--End of footer-->
+    <!--Link to script.js which controls the mobile nav bar open and closing-->
     <script src="./assets/script.js" defer></script>
-    <script defer
+    <!--Script link to font awesomes page to enable use of favicons-->
+    <script
       src="https://kit.fontawesome.com/f5d3de7183.js"
       crossorigin="anonymous"
     ></script>
   </body>
+  <!--End of body-->
 </html>

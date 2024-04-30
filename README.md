@@ -73,6 +73,15 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 ![Band](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/210f1fcd-f220-411f-8841-c46c6cf654c4)
 ![Stratocaster](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/68a3bc16-8f7a-4caa-980c-10e11ad95c2a)
 ![Discograpy](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/d0726429-407e-4da1-9f4c-b9465d2af70b)
+<br>
+
+<h4>Desktop</h4>
+
+![Homepage](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/d665b8aa-c184-4af8-bcd9-edb4b74b2c26)
+![About page](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/02c985b1-04ec-422c-814e-f6caff432ff4)
+![Band](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/d29c1f0d-4f51-4043-8ed1-c9defbc72af2)
+![Stratocaster](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/0b9b4a0b-eb74-43e7-a87c-8d25dde8bd6f)
+![Screenshot 2024-04-30 104723](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/be37707b-7049-4bde-b264-1cffb01bdfd0)
 
 
 

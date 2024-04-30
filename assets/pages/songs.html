@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+   <!--Start of head-->
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Header meta tag for keywords-->
     <meta
       name="keywords"
       content="rory gallagher, guitar, music, stratocaster, history, instruments, band, gerry mcavoy, rod death"
     >
+     <!--Link to set webpage tab icon to rorys guitar-->
     <link
       rel="icon"
       type="image/x-icon"
       href="../../assets/images/rorys_guitar_icon.ico"
     >
+    <!--Link to stylesheet-->
     <link rel="stylesheet" href="../styles/style.css">
+    <!--Page title-->
     <title>Songs</title>
   </head>
+  <!--End of head-->
+  <!--Start of Body-->
   <body>
+    <!--Start of header-->
     <header>
+      <!--Start of navigation-->
       <nav>
+        <!--DIV for both desktop and mobile nav bar-->
         <div id="nav-bar">
           <a href="../../index.html"
             ><img
               src="../../assets/images/rorys-guitar.webp"
               alt="image of rory gallaghers guitar"
           ></a>
+          <!--Start of Desktop Nav Bar-->
           <ul id="desktop-nav">
             <li><a href="../../index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -31,11 +42,16 @@
             <li><a href="band.html">Band</a></li>
             <li><a href="" class="active">Songs</a></li>
           </ul>
-
+           <!--End of Desktop Nav Bar-->
+          <!--Start of mobile nav-->
           <div id="mobile-nav">
+            <!--Menu Bar icon for toggling mobile navbar drop down on-->
             <i onclick="OpenMenu()" id="menu-bars" class="fa-solid fa-bars"></i>
+            <!--Menu Bar icon for toggling mobile navbar drop up-->
             <i onclick="closeMenu()" class="fa-solid fa-x" id="menu-exit"></i>
+            <!--Div for dropdown mobile nav ul-->
             <div id="mobile-sidebar">
+              <!--unordered list for each page link on the nav bar-->
               <ul>
                 <li><a href="../../index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -45,14 +61,21 @@
               </ul>
             </div>
           </div>
+           <!--End of mobile div-->
         </div>
+         <!--End of navbar div-->
       </nav>
+      <!--End of navigation-->
     </header>
-
+    <!--End of header-->
+    <!--Start of main section-->
     <main>
       <div>
+        <!--Section containing rorys albums-->
         <section id="songs">
+          <!--Header-->
           <h2>Rory's Discography</h2>
+          <!--Unordered list of rorys songs containing a link to a new tab and and image of the record-->
           <ul id="songs-list">
             <li>
               <a
@@ -127,14 +150,19 @@
               ></a>
             </li>
           </ul>
+          <!--End of songs list-->
         </section>
-
+        <!--End of songs section-->
+        <!--Start of form-->
         <div id="form">
+          <!--Header-->
           <h2>Find the Rory Song for you!</h2>
+          <!--Form with post method to load my-song.html after submit-->
           <form
-            method="get"
+            method="post"
             action="window.location.href=./assets/pages/my-song.html"
             id="song-form">
+            <!--Radio buttons-->
             <label>Select from the below list: </label>
             <br>
             <input required type="radio" value="Rock" id="rock" name="genre">
@@ -157,18 +185,26 @@
               name="genre"
             >
             <label for="Traditonal">Traditonal</label>
+            <!--End of radio buttons-->
             <br>
             <br>
+            <!--Text box input-->
             <label for="Favourite-Artist">Favourite-Artist</label>
             <input required type="text" id="Favourite-Artist">
+            <!--End of text box input-->
             <br>
             <br>
+            <!--Submit button-->
             <input onclick="" type="submit" value="Find My Song" id="submit">
           </form>
+          <!--End of form-->
         </div>
       </div>
     </main>
+    <!--End of main section-->
+    <!--Start of footer-->
     <footer>
+       <!--Unordered list of two elements to new tabs, rorys offical page and my github-->
       <ul>
         <li>
           <a href="https://www.rorygallagher.com/" target="_blank"
@@ -184,6 +220,8 @@
         </li>
       </ul>
     </footer>
+    <!--End of footer-->
+    <!--Script to load random song page-->
     <script>
       document
         .getElementById("song-form")
@@ -194,10 +232,13 @@
           window.location.href = "../../assets/pages/my-song.html";
         });
     </script>
+    <!--Link to script.js which controls the mobile nav bar open and closing-->
     <script src="../../assets/script.js"></script>
+    <!--Script link to font awesomes page to enable use of favicons-->
     <script
       src="https://kit.fontawesome.com/f5d3de7183.js"
       crossorigin="anonymous"
     ></script>
   </body>
+  <!--End of body-->
 </html>

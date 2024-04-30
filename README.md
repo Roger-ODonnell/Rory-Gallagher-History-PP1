@@ -1,3 +1,5 @@
+![Screenshot 2024-04-30 105722](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/7e78642b-6444-4286-85b0-10ebda1d377d)
+
 <H1 id="top">Welcome to my History of Rory Gallagher Web Site</H1>
 <hr>
 

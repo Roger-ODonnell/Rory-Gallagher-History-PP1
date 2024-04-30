@@ -6,7 +6,7 @@
 
 <H1 id="Overview">Site Overview</H1>
 <hr>
-<p>This site is to form anyone who may come accross it of the Irish Rock legend <strong>Rory Gallagher</strong>strong>. An incredible artist part of irelands rock and blues history.
+<p>This site is to inform anyone who may come accross it of the Irish Rock legend <strong>Rory Gallagher</strong>. An incredible artist who was part of irelands rock and blues history.
 The page will inform anyone reading it of Rory's upbringing, his career and his final days. 
 It will give the reader a brief history of Rory's life and hopefully redirect them his way to find and enjoy his music as I have.</p>
 

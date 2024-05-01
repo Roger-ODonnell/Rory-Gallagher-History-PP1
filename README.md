@@ -307,4 +307,7 @@ Photo references can be found here:
   <a href="https://en.wikipedia.org/wiki/Taste_(Irish_band)">Taste Band</a>
 </p>
 
+<h1>Credits</h1>
+<p>Id like to thank <a href="https://github.com/Mienjung97/Owning-Cats">Mienjung97</a> for a clean and straight forward readme template and structure</p>
+
 <a href="#top">Back to top</a>

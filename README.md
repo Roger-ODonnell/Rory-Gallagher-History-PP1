@@ -174,3 +174,46 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 ![Screenshot 2024-05-01 101130](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/0fad413a-999f-4664-84dc-ffd355c3e4dd)
 
 <a href="#top">Back to top</a>
+
+<h1>Testing</h1>
+<p>Throughout the sites development each page was tested and trialed against html checker and responsive tests. It was difficult to wrap my head around flex but with the use of google dev tools and trying various methods I successfully got the page responsive and functional.</p>
+
+<h2>Validation</h2>
+<p>Homepage</p>
+
+![Homepage Html](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/caf1369f-36bb-4ac8-aa4d-65e3a386d5da)
+
+<p>About Page</p>
+
+![ABOUT html](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/57f6e78a-8af5-4b1a-9770-c3f6160a0e54)
+
+<p>Stratocaster Page</p>
+
+![Stratocaster html](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/6a96906b-4335-4459-b579-82eb5528c6ce)
+
+<p>Band Page</p>
+
+![Band Html](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/922e8a92-e9cb-4f4d-a8ec-81a4151dfe69)
+
+<P>Songs</P>
+
+![Songs Html](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/f79060b0-883b-4d6a-b88c-04f4088e074e)
+
+<p>My-Song Page</p>
+
+![my song html](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/0818e858-cf59-4c59-85b8-da26768ffabf)
+
+<p>CSS</p>
+
+![CS validator](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/69b9653f-3a0d-4fc7-890d-e740d2ee3266)
+
+<a href="#top">Back to top</a>
+
+<h1>Responsiveness</h1>
+
+<p>My responsive tests were carried out using Chrome Dev Tools and <a href="https://www.responsivedesignchecker.com/">Responsive Design Checker</a></p>
+
+![Screenshot 2024-05-01 103350](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/42c75c60-4ba8-4658-8aa9-7c3b6656b44a)
+
+<H1>Lighthouse</H1>
+

@@ -277,6 +277,8 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 </ol>
 <p>No isssues were found accross these tested browsers</p>
 
+<a href="#top">Back to top</a>
+
 <h1>Content And Media References</h1>
 <ul>
   <li>Font came from <a href="https://fonts.google.com/">Google Fonts</a></li>
@@ -286,4 +288,8 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
   <li>Responsive Header Image in this read me was made by <a href="https://ui.dev/amiresponsive">amiresponsive</a></li>
 </ul>
 
-Photo references can be found here - 
+Photo references can be found here:
+
+![Screenshot 2024-05-01 205151](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/b7958a1d-bfea-4ee2-9fd6-a7b51bc50413)
+
+<a href="#top">Back to top</a>

@@ -23,7 +23,7 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 <hr>
 <h2>Idea</h2>
 <p>Rory Gallagher has been an inspiration to me for years now, I first heard of him back in 2020. I had recently started learning guitar also at this time so luckily for me I found just the right artist to inspire me.</p>
-<p>Him being being an inspiration to me made picking the idea for this project very simple because I would love more people to know about him and his music and so I set out an crafting and bring to fruition the ideal site to get a brief but exceptional look into Rory Gallagher and how he rose to fame and became the man he was in the 70's to 90's.</p>
+<p>Him being being an inspiration to me made picking the idea for this project very simple because I would love more people to know about him and his music and so I set out an crafting and bring to fruition the ideal site to get a brief but exceptional look into Rory Gallagher and how he rose to fame and became the man he was from the 60's to late 90's.</p>
 
 <h2>Site Aims</h2>
 <ul>
@@ -50,7 +50,7 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 <h2>Site Goals</h2>
 <ul>
   <li>I will use good css practice and media queries to handle all device screen types.</li>
-  <li>I will use adobhe color to match up a nice color scheme based of Rorys guitar to maintain a theme.</li>
+  <li>I will use adobe color to match up a nice color scheme based of Rorys guitar to maintain a theme.</li>
   <li>I will use informative and interesting information from various sites to let the reader leave with learning something about Rory.</li>
 </ul>
 
@@ -59,7 +59,7 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
   <li>I will use complimenting colors to achieve easy on the eye's navigation</li>
   <li>I will provide interesting facts about rorys life</li>
   <li>I Will make all pages responsive to allow viewing on any device</li>
-  <li>i will keep reading to a minimum whilst providing enough information on Rory Gallagher</li>
+  <li>I will keep reading to a minimum whilst providing enough information on Rory Gallagher</li>
 </ul>
 
 <a href="#top">Back to top</a>
@@ -146,7 +146,7 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 ![Screenshot 2024-05-01 095640](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/f97fc8e1-1d5a-46ec-a325-4c8f7222493e)
 
 <h1>Footer</h1>
-<p>Ther footer provides you with links to Rory gallaghers Ofiical Site and my Github link to check out my repos a little more.</p>
+<p>Ther footer provides you with links to Rory gallaghers Ofiical Site and a Github link to check out my repos a little more.</p>
 
 ![Screenshot 2024-05-01 095919](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/48c329e6-f8d7-4cbc-8604-c527a17712eb)
 
@@ -157,10 +157,10 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 <ol>
   <li><a target="_blank" href="https://html.spec.whatwg.org/">HTML</a> - Provides the content and structure for my webpage</li>
   <li><a target="_blank" href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a> - Provides the styling and helps responsiveness accross devices</li>
-  <li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a> - Helped power the back ground functionality of my mobile nav bar and random song generator</li>
-  <li><a target="_blank" href="https://www.gitpod.io/">Gitpod</a> - Loaded my project from the intial template</li>
+  <li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a> - Helped power the background functionality of my mobile navigation bar and random song generator</li>
+  <li><a target="_blank" href="https://www.gitpod.io/">Gitpod</a> - Loaded my project from the initial template</li>
   <li><a target="_blank" href="https://www.figma.com/">Figma</a> - Helped me design wireframes to plan my site</li>
-  <li><a target="_blank" href="https://www.Github.com">Github</a> - Hosted my deployed site and allowed me to store and track my projects changes</li>
+  <li><a target="_blank" href="https://www.Github.com">Github</a> - Hosted my site and allowed me to store and track my projects changes</li>
 </ol>
 
 <h1>Deployment</h1>
@@ -291,5 +291,11 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 Photo references can be found here:
 
 ![Screenshot 2024-05-01 205151](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/b7958a1d-bfea-4ee2-9fd6-a7b51bc50413)
+
+<p>
+  Text sections can be found at rory gallaghers various wikipedia pages
+  <a href="https://en.wikipedia.org/wiki/Rory_Gallagher">Rory gallagher wikipedia</a>
+  <a href="https://en.wikipedia.org/wiki/Taste_(Irish_band)">Taste Band</a>
+</p>
 
 <a href="#top">Back to top</a>

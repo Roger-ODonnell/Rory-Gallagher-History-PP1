@@ -14,8 +14,17 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 
 <h1>Contents:</h1>
 <ol>
-  <li><a href="#overview">Site Overview</a></li>
+  <li><a href="#Overview">Site Overview</a></li>
   <li><a href="#planning">Planning Stage</a></li>
+  <li><a href="#wireframes">Wireframes</a></li>
+  <li><a href="#typography">Typography</a></li>
+  <li><a href="#features">Features</a></li>
+  <li><a href="#technology">Technology Used</a></li>
+  <li><a href="#deployment">Deployment</a></li>
+  <li><a href="#testing">Testing</a></li>
+  <li><a href="#lighthouse-testing">Lighthouse Testing</a></li>
+  <li><a href="#browser">Browser compatibility</a></li>
+  <li><a href="#content">Content References</a></li>
 </ol>
 
 
@@ -64,7 +73,7 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 
 <a href="#top">Back to top</a>
 
-<h2>Wireframes</h2>
+<h2 id="wireframes">Wireframes</h2>
 <h3>My wireframe designs where created using figma.</h3>
 
 <h4>Mobile</h4>
@@ -87,7 +96,7 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 
 <a href="#top">Back to top</a>
 
-<h1>Typography</h1>
+<h1 id="typography">Typography</h1>
 <P>I selected Platypi Font for use accross my website (<a href="https://fonts.google.com/specimen/Platypi">https://fonts.google.com/specimen/Platypi</a>)</P>
 
 ![Screenshot 2024-05-01 092435](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/78df440b-156e-4945-aa00-8e18067ce726)
@@ -100,7 +109,7 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 <p>Created with coolors (<a href="https://coolors.co/">https://coolors.co/</a>)</p>
 <a href="#top">Back to top</a>
 
-<h1>Features</h1>
+<h1 id="features">Features</h1>
 <h2>Navigation</h2>
 
 <h3>Desktop Navigation</h3>
@@ -152,7 +161,7 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 
 <a href="#top">Back to top</a>
 
-<h1>Technologies Used:</h1>
+<h1 id="technology">Technologies Used:</h1>
 
 <ol>
   <li><a target="_blank" href="https://html.spec.whatwg.org/">HTML</a> - Provides the content and structure for my webpage</li>
@@ -163,7 +172,7 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
   <li><a target="_blank" href="https://www.Github.com">Github</a> - Hosted my site and allowed me to store and track my projects changes</li>
 </ol>
 
-<h1>Deployment</h1>
+<h1 id="deployment">Deployment</h1>
 <h3>The website was deployed on GitHub Pages following these steps:</h3>
 <ol>
   <li>Go to GitHub, navigate through Repository/settings/pages.</li>
@@ -175,7 +184,7 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 
 <a href="#top">Back to top</a>
 
-<h1>Testing</h1>
+<h1 id="testing">Testing</h1>
 <p>Throughout the sites development each page was tested and trialed against html checker and responsive tests. It was difficult to wrap my head around flex but with the use of google dev tools and trying various methods I successfully got the page responsive and functional.</p>
 
 <h2>Validation</h2>
@@ -215,7 +224,7 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 
 ![Screenshot 2024-05-01 103350](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/42c75c60-4ba8-4658-8aa9-7c3b6656b44a)
 
-<H1>Lighthouse</H1>
+<H1 id="lighthouse-testing">Lighthouse</H1>
 
 <h2>Desktop</h2>
 <h3>Homepage</h3>
@@ -269,7 +278,7 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 
 <a href="#top">Back to top</a>
 
-<h1>Browser Compatibility</h1>
+<h1 id="browser">Browser Compatibility</h1>
 <ol>
   <li>Google Chrome
   <li>Microsoft Edge</li>
@@ -279,7 +288,7 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 
 <a href="#top">Back to top</a>
 
-<h1>Content And Media References</h1>
+<h1 id="content">Content And Media References</h1>
 <ul>
   <li>Font came from <a href="https://fonts.google.com/">Google Fonts</a></li>
   <li>Icon came from <a href="https://fontawesome.com/">Fontawesome</a></li>

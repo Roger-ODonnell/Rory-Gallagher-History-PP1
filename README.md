@@ -85,5 +85,92 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 ![Stratocaster](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/0b9b4a0b-eb74-43e7-a87c-8d25dde8bd6f)
 ![Screenshot 2024-04-30 104723](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/be37707b-7049-4bde-b264-1cffb01bdfd0)
 
+<a href="#top">Back to top</a>
 
+<h1>Typography</h1>
+<P>I selected Platypi Font for use accross my website (<a href="https://fonts.google.com/specimen/Platypi">https://fonts.google.com/specimen/Platypi</a>)</P>
 
+![Screenshot 2024-05-01 092435](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/78df440b-156e-4945-aa00-8e18067ce726)
+
+<h1>Colors</h1>
+<p><strong>The I used accross the project are a aqua and black, I found it suited my site well and made it easier to seperate the navigation and footer from the main content of the page making for easier navigation</strong></p>
+<br>
+
+![color scheme](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/e244b487-2760-4416-bf62-0c258a82b43f)
+<p>Created with coolors (<a href="https://coolors.co/">https://coolors.co/</a>)</p>
+<a href="#top">Back to top</a>
+
+<h1>Features</h1>
+<h2>Navigation</h2>
+
+<h3>Desktop Navigation</h3>
+
+![Screenshot 2024-05-01 093707](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/e02371df-be4b-4c25-8496-8847f700b274)
+<h3>Mobile Navigation Closed</h3>
+
+![Screenshot 2024-05-01 093636](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/61f95bf4-66a6-45fc-9acd-304b1b024b39)
+
+<h3>Mobile Navigation Open</h3>
+
+![Screenshot 2024-05-01 093653](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/5bc5a85a-4582-42ed-8ba0-f13a9ddae6fe)
+
+<h1>Rory Gallagher History - Homepage</h1>
+
+<p>This page gives the user a brief introduction to Rory gallagher and his band, it introduces a few band members and provides a quote below rorys image that may entice the user to read further into the site.</p>
+
+![Screenshot 2024-05-01 094355](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/a2d4bf26-7153-49b0-962b-4945f53eb347)
+
+<h1>The about page</h1>
+<p>This page gives the a slightly more information on rory, his early band taste and his final days.</p>
+
+![image](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/e1c834ad-925f-4da1-8516-0854403efbf0)
+
+<h1>Stratocaster</h1>
+<p>This page gives the user a small history on rorys famous guitar, it is assumed to be the first stratocaster in Ireland. This page accompanies a picture of it.</p>
+
+![image](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/f884074b-5d3d-40d2-a9b0-7ecf89e298ec)
+
+<h1>Band</h1>
+
+<p>This page gives the user information on rorys band over the years, some key members who have stayed with him for excess of 20 years and some who have been a integral part in Rorys journey.</p>
+
+![Screenshot 2024-05-01 095109](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/f2b740b5-bb8f-48f9-8a40-0689c2f186a8)
+
+<h1>Songs</h1>
+<P>This page allows you to see some of Rorys records over the years, whilst also being interactive and taking you to a store where you can purchase these records.</P>
+
+![Screenshot 2024-05-01 095310](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/1ca9610c-8139-40c1-9334-71e27965eb56)
+
+<P>Just below the discography is a forum where you can take part in a little quiz to get the Rory song for you! Once your answers are submitted you will be redirected to a page where you can listen to potentially your first rory song.</P>
+
+![Screenshot 2024-05-01 095640](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/f97fc8e1-1d5a-46ec-a325-4c8f7222493e)
+
+<h1>Footer</h1>
+<p>Ther footer provides you with links to Rory gallaghers Ofiical Site and my Github link to check out my repos a little more.</p>
+
+![Screenshot 2024-05-01 095919](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/48c329e6-f8d7-4cbc-8604-c527a17712eb)
+
+<a href="#top">Back to top</a>
+
+<h1>Technologies Used:</h1>
+
+<ol>
+  <li><a target="_blank" href="https://html.spec.whatwg.org/">HTML</a> - Provides the content and structure for my webpage</li>
+  <li><a target="_blank" href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a> - Provides the styling and helps responsiveness accross devices</li>
+  <li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a> - Helped power the back ground functionality of my mobile nav bar and random song generator</li>
+  <li><a target="_blank" href="https://www.gitpod.io/">Gitpod</a> - Loaded my project from the intial template</li>
+  <li><a target="_blank" href="https://www.figma.com/">Figma</a> - Helped me design wireframes to plan my site</li>
+  <li><a target="_blank" href="https://www.Github.com">Github</a> - Hosted my deployed site and allowed me to store and track my projects changes</li>
+</ol>
+
+<h1>Deployment</h1>
+<h3>The website was deployed on GitHub Pages following these steps:</h3>
+<ol>
+  <li>Go to GitHub, navigate through Repository/settings/pages.</li>
+  <li>Select "main branch" in the source tab and click save.</li>
+  <li>The page should look like this, which includes the webpages address:</li>
+</ol>
+
+![Screenshot 2024-05-01 101130](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/0fad413a-999f-4664-84dc-ffd355c3e4dd)
+
+<a href="#top">Back to top</a>

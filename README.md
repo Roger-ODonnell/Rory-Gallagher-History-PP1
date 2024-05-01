@@ -290,6 +290,6 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 
 Photo references can be found here:
 
-![Screenshot 2024-05-01 205151](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/b7958a1d-bfea-4ee2-9fd6-a7b51bc50413)0
+![Screenshot 2024-05-01 205151](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/b7958a1d-bfea-4ee2-9fd6-a7b51bc50413)
 
 <a href="#top">Back to top</a>

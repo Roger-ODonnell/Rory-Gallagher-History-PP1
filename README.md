@@ -217,3 +217,73 @@ It will give the reader a brief history of Rory's life and hopefully redirect th
 
 <H1>Lighthouse</H1>
 
+<h2>Desktop</h2>
+<h3>Homepage</h3>
+
+![Screenshot 2024-05-01 202319](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/97d9d836-ee10-4089-bbcd-f022175af4e0)
+
+<h3>About</h3>
+
+![Screenshot 2024-05-01 202451](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/a7ac3d76-69ae-4d3c-a05b-411e236f07df)
+
+<h3>Stratocaster</h3>
+
+![Screenshot 2024-05-01 202543](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/548b4d82-a05d-4ad8-8ddb-f13eaafb8faf)
+
+<h3>Band</h3>
+
+![Screenshot 2024-05-01 202651](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/357a82a6-d987-4237-95dc-d76713ae469a)
+
+<h3>Songs</h3>
+
+![Screenshot 2024-05-01 202725](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/8ecd8c33-e69f-411c-b4e8-af0bf01c1848)
+
+<h3>My Song</h3>
+
+![Screenshot 2024-05-01 202829](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/809e69f2-463e-49b2-b326-b7373669abf4)
+
+<h2>Mobile</h2>
+<h3>Homepage</h3>
+
+![Screenshot 2024-05-01 203005](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/a2bec642-aac9-4ffa-8e61-e75c0995d503)
+
+<h3>About</h3>
+
+![Screenshot 2024-05-01 203056](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/7fd302e6-e411-4a65-b1e7-008f123f63dd)
+
+<h3>Stratocaster</h3>
+
+![Screenshot 2024-05-01 203150](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/ea81aafe-3ede-449e-beed-c4d37cc85eb3)
+
+<h3>Band</h3>
+
+![Screenshot 2024-05-01 203230](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/6cb3bfca-7f2f-42fa-883e-aaec31890f30)
+
+<h3>Song</h3>
+
+![Screenshot 2024-05-01 203315](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/18b9658e-3163-4a10-9931-53a7a0cf5391)
+
+<h3>My song</h3>
+
+![Screenshot 2024-05-01 203402](https://github.com/Roger-ODonnell/Rory-Gallagher-History-PP1/assets/71945647/1a389c96-255a-4a44-a87f-fdaf2e720dcb)
+
+<a href="#top">Back to top</a>
+
+<h1>Browser Compatibility</h1>
+<ol>
+  <li>Google Chrome
+  <li>Microsoft Edge</li>
+  <li>Mozilla Firefox</li>
+</ol>
+<p>No isssues were found accross these tested browsers</p>
+
+<h1>Content And Media References</h1>
+<ul>
+  <li>Font came from <a href="https://fonts.google.com/">Google Fonts</a></li>
+  <li>Icon came from <a href="https://fontawesome.com/">Fontawesome</a></li>
+  <li>Color Palette came from <a href="https://color.adobe.com/create/color-wheel">Adobe Color</a></li>
+  <li>Wireframe came from <a href="https://www.figma.com/">Figma</a></li>
+  <li>Responsive Header Image in this read me was made by <a href="https://ui.dev/amiresponsive">amiresponsive</a></li>
+</ul>
+
+Photo references can be found here - 
